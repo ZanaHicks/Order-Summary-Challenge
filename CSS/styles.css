@@ -104,15 +104,15 @@ button {
     border: none;
     border-radius: 1rem;
 }
+button:hover {
+    cursor: pointer;
+}
 .card__pay__button {
     background-color: hsl(245, 75%, 52%);
     padding: 1rem;
     color: white;
     font-weight: 900;
     font-size: 16px;
-}
-.card__pay__button:hover {
-    cursor: pointer;
 }
 .card__description {
     line-height: 2;
@@ -122,9 +122,6 @@ button {
     background-color: white;
     color: hsl(224, 23%, 55%);
     font-weight: 900;
-}
-.card__cancel__button:hover {
-    cursor: pointer;
 }
 .price {
     color: hsl(224, 23%, 55%);
