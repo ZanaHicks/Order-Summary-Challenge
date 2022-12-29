@@ -43,4 +43,4 @@ I'm trying to understand flex-box and grid functionality better.
 
 ## Acknowledgments
 
-- [Josh Comeau's CSS Reset]([https://www.joshwcomeau.com/css/custom-css-reset/] - This is Josh Comeau's modern CSS Reset.
+- [Josh Comeau's CSS Reset]([https://www.joshwcomeau.com/css/custom-css-reset/] 
