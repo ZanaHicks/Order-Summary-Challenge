@@ -60,9 +60,11 @@ body {
 }
 h1 {
     color: hsl(223, 47%, 23%);
+    font-weight: 900;
 }
 a {
     font-weight: 700;
+    color: hsl(245, 75%, 52%);
 }
 .annual-plan {
     color: hsl(223, 47%, 23%);
@@ -90,22 +92,32 @@ a {
 }
 .card__text {
     display: grid;
+    justify-items: center;
+}
+.card__description {
+    text-align: center;
+    margin-inline: 1rem;
 }
 .flex-group {
     display: flex;
     flex-direction: column;
+
 }
 .flex-group-2 {
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 1.5rem;
 }
 button {
     border: none;
-    border-radius: 1rem;
+    border-radius: .75rem;
 }
 button:hover {
     cursor: pointer;
+}
+a:hover {
+    color: hsl(245, 75%, 70%);
+    text-decoration: none;
 }
 .card__pay__button {
     background-color: hsl(245, 75%, 52%);
@@ -114,14 +126,20 @@ button:hover {
     font-weight: 900;
     font-size: 16px;
 }
+.card__pay__button:hover{
+    background-color: hsl(245, 75%, 70%);
+}
 .card__description {
-    line-height: 2;
+    line-height: 1.9;
     color: hsl(224, 23%, 55%);
 }
 .card__cancel__button {
     background-color: white;
     color: hsl(224, 23%, 55%);
     font-weight: 900;
+}
+.card__cancel__button:hover {
+    color: hsl(223, 47%, 23%);
 }
 .price {
     color: hsl(224, 23%, 55%);
